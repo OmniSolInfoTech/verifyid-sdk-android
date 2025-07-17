@@ -95,4 +95,18 @@ For technical support, contact [support@verifyid.io](mailto:support@verifyid.io)
 
 ---
 
+## Quick Start
+
+1. **Add to your project:**
+    - Clone/download this repo.
+    - Copy the `com.verifyid_sdk_android` folder into your Android project.
+
+2. **Launch SDK from your app:**
+
+```kotlin
+KycWizardActivity.launch(context = this, apiKey = "YOUR_X_API_KEY")
+```
+
+---
+
 © 2025 VerifyID.io
